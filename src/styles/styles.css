@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    align-items: center;
+    border: solid red;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+section{
+    padding-bottom: 8px;
+}
+
+.basicFoodInfo {
+    font-weight: bold;
+}
+
+.countries {
+    font-weight: bold;
+    color: darkblue;
+}
